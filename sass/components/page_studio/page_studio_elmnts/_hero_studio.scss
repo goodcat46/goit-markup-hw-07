@@ -1,9 +1,10 @@
 /* ----------ГЕРОЙ */
 /* ФОН ГЕРОЙ */
-.section.hero {
+.hero {
   background-color: #C4C4C4;
   height: 600px;
   max-width: 1600px;
+  width: 100%;
 
   background-image:
     linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),

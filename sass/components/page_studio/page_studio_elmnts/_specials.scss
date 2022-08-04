@@ -1,12 +1,11 @@
 /* ----------ОСОБЛИВОСТІ */
 .spcls-list {
   display: flex;
-}
 
-.spcls-list>li:not(:last-child) {
-  margin-right: 30px;
+  &>li:not(:last-child) {
+    margin-right: 30px;
+  }
 }
-
 /* ІКОНКИ В ОСОБЛИВОСТЯХ */
 .spcls-item::before {
   display: block;
@@ -20,27 +19,21 @@
 
   margin-bottom: 30px;
 }
-
 .icon-antena::before {
   background-image: url(../icons/icons-studio/icons-specials/antenna.svg);
 }
-
 .icon-clock::before {
   background-image: url(../icons/icons-studio/icons-specials/clock.svg);
 }
-
 .icon-diagram::before {
   background-image: url(../icons/icons-studio/icons-specials/diagram.svg);
 }
-
 .icon-astronaut::before {
   background-image: url(../icons/icons-studio/icons-specials/astronaut.svg);
 }
-
 .spcls-container {
   width: 270px;
 }
-
 .spcls-tittles {
   font-weight: var(--tittle-wght-bold);
   font-size: 14px;
@@ -50,7 +43,6 @@
   margin-top: 0px;
   margin-bottom: 10px;
 }
-
 .spcls-text {
   line-height: 1.7;
   margin: 0px;
