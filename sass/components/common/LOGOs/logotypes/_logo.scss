@@ -1,0 +1,25 @@
+.logo {
+  display: inline-block;
+  font-family: var(--font-fmly-logo);
+  font-weight: var(--tittle-wght-bold);
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--accent-clr-elmnts);
+  
+  &.hdr {
+    padding-top: 24px;
+    padding-bottom: 25px;
+    margin-right: 93px;
+
+    & .black {
+      color: #000000;
+    }
+  }
+  &.ftr {
+    margin-bottom: 20px;
+
+    & .white {
+      color: #FFFFFF;
+    }
+  }
+}
