@@ -1,0 +1,57 @@
+/* ----------ОСОБЛИВОСТІ */
+.spcls-list {
+  display: flex;
+}
+
+.spcls-list>li:not(:last-child) {
+  margin-right: 30px;
+}
+
+/* ІКОНКИ В ОСОБЛИВОСТЯХ */
+.spcls-item::before {
+  display: block;
+  content: "";
+  height: 120px;
+  background-color: #F5F4FA;
+  background-size: 70px 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+
+  margin-bottom: 30px;
+}
+
+.icon-antena::before {
+  background-image: url(../icons/icons-studio/icons-specials/antenna.svg);
+}
+
+.icon-clock::before {
+  background-image: url(../icons/icons-studio/icons-specials/clock.svg);
+}
+
+.icon-diagram::before {
+  background-image: url(../icons/icons-studio/icons-specials/diagram.svg);
+}
+
+.icon-astronaut::before {
+  background-image: url(../icons/icons-studio/icons-specials/astronaut.svg);
+}
+
+.spcls-container {
+  width: 270px;
+}
+
+.spcls-tittles {
+  font-weight: var(--tittle-wght-bold);
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--tittle-clr-bold);
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.spcls-text {
+  line-height: 1.7;
+  margin: 0px;
+}

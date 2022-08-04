@@ -1,0 +1,21 @@
+/* ЛОГОТИПЧИК ФУТЕР */
+.section-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #2F303A;
+}
+
+.logo-ftr {
+  display: inline-block;
+  font-family: var(--font-fmly-logo);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: #FFFFFF;
+
+  margin-bottom: 20px;
+}
+
+.logo-ftr .logo-blue {
+  color: var(--accent-clr-elmnts);
+}

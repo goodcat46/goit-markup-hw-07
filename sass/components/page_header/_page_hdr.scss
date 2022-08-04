@@ -1,0 +1,17 @@
+/* ---------------------------ШАПКА СТОРІНКИ */
+.header-bottom-brdr {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+
+  white-space: nowrap;
+
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #ECECEC;
+}
+@import './page_hdr_elmnts/site_nav';
+@import './page_hdr_elmnts/contacts_hdr';
+
+
+

@@ -1,0 +1,42 @@
+/* СОЦІАЛЬНІ МЕРЕЖІ ПРАЦІВНИКІВ */
+.crd-socials-list {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+
+  width: 206px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.crd-socials-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  content: "";
+
+  width: 44px;
+  height: 44px;
+
+  fill: var(--fill-icon-svg);
+  background-color: #ffffff;
+  border-radius: 50%;
+
+  transition:
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.crd-socials-link:focus,
+.crd-socials-link:hover {
+  background-color: var(--clr-btns-accent);
+  fill: #FFFFFF;
+}
+
+.crd-socials-link svg {
+  display: block;
+  width: 20px;
+  height: 20px;
+
+}

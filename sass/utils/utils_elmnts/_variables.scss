@@ -1,0 +1,151 @@
+:root {
+  --accent-clr-elmnts: #2196F3;
+  --clr-btns-accent: #2196F3;
+  --clr-btns-hover: #188CE8;
+  --clr-btns-nrml: #F5F4FA;
+  --color-contacts-ftr: rgba(255, 255, 255, 0.6);
+  --color-text-primary: #757575;
+  --tittle-clr-bold: #212121;
+  --fill-icon-svg: #AFB1B8;
+  --text-wght-nrml: 400;
+  --text-wght-nrml2: 500;
+  --tittle-wght-bold: 700;
+  --tittle-wght-bol2: 900;
+  --font-fmly-logo: 'Raleway', sans-serif;
+  --icons-clr-primary: #AFB1B8;
+  --anim-main-timing-function: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+  --testing-brdr-clr: tomato;
+  /* --testing-brdr-wght: 1px; */
+
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+/* при навігації клавішею TAB забирав чорний аутлайн  */
+*:focus,
+*:focus-within {
+  outline: transparent;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  color: #757575;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+
+  margin: 0px;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0px 15px;
+  margin: 0px auto;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section.no-padding {
+  padding: 0px;
+
+}
+
+.section.no-top-padding {
+  padding-top: 0px;
+
+}
+
+.section.no-bottom-padding {
+  padding-bottom: 0px;
+
+}
+
+/* -------------------------- НОРМАЛІЗАЦІЯ -------------------------- */
+/* ЗАГОЛОВКИ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+
+/* ПАРАГРАФИ */
+p {
+  margin-top: 0;
+}
+
+/* СПИСКИ */
+ul {
+  list-style: none;
+  padding-inline-start: 0px;
+  margin: 0px;
+}
+
+/* ПОСИЛАННЯ */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* адресні дані */
+address {
+  font-style: normal;
+}
+
+/* кнопки */
+button {
+  cursor: pointer;
+}
+
+/* зображення */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* СКРИТІ ЕЛЕМЕНТИ */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* глобальний флекс контейнер */
+.test-flex {
+  display: flex;
+  align-items: center;
+
+}
+/* ----------ЗАГОЛОВКИ СЕКЦІЙ */
+.section-tittle {
+  font-weight: var(--tittle-wght-bold);
+  font-size: 36px;
+  line-height: 1.7;
+  text-align: center;
+  color: var(--tittle-clr-bold);
+  margin-top: 0px;
+  margin-bottom: 50px;
+}

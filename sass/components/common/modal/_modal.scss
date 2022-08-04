@@ -1,0 +1,63 @@
+/* --------------------------- МОДАЛЬНЕ ВІКНО */
+
+/* модальне вікно */
+.modal {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  top: 50%;
+
+  padding: 40px;
+
+  min-height: 580px;
+  min-width: 528px;
+
+  background-color: #FFFFFF;
+
+  box-shadow:
+    0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+
+  transition:
+    transform var(--anim-main-timing-function),
+    visibility var(--anim-main-timing-function);
+
+}
+
+/* кнопка закриття */
+.button-close {
+  position: absolute;
+  top: 8px;
+  left: 490px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 30px;
+  height: 30px;
+
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+
+  transition: box-shadow var(--anim-main-timing-function);
+}
+
+.button-close svg {
+  width: 12px;
+  height: 12px;
+}
+
+.button-close:focus,
+.button-close:hover {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* .button-close:active {
+  box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+} */

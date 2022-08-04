@@ -1,0 +1,14 @@
+/* ПОРТФОЛІО ФІЛЬТР */
+.filtr-container {
+  margin-bottom: 50px;
+}
+
+.filtr-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filtr-items>li:not(:last-child) {
+  margin-right: 8px;
+}

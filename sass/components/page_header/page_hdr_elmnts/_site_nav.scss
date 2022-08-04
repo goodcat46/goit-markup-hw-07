@@ -1,0 +1,52 @@
+/* НАВІГАЦІЯ САЙТОМ */
+.nav-zone {
+  margin-right: auto;
+}
+
+.nav-list {
+  font-weight: var(--text-wght-nrml2);
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.nav-list .nav-link {
+  display: block;
+  color: var(--tittle-clr-bold);
+
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  transition: color 250ms var(--anim-main-timing-function);
+}
+
+.nav-list li+li {
+  margin-left: 50px;
+}
+
+.nav-list .nav-link:focus,
+.nav-list .nav-link:hover {
+  color: var(--accent-clr-elmnts);
+}
+
+.nav-list .nav-link:active {
+  color: var(--accent-clr-elmnts)
+}
+
+.nav-list .nav-link.nav-link-current {
+  position: relative;
+  display: block;
+
+  color: var(--accent-clr-elmnts);
+}
+
+.nav-list .nav-link.nav-link-current::after {
+  position: absolute;
+  content: "";
+  bottom: -1px;
+  left: 0;
+
+  height: 4px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: var(--accent-clr-elmnts);
+}
